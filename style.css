@@ -49,66 +49,6 @@
     /* có thể bỏ */
 }
 
-/* .mySlides3 {
-    display:none;
-     width:100%
-}
-.display-container{
-    position:relative
-} */
-
-/* button chuyển ảnh */
-/* .button-left{
-    left: 1%; 
-    font-size:20px;
-}
-.button-right{
-    right:1%; 
-    font-size:20px 
-}
-.image-button{
-    border:none;
-    display:inline-block;
-    padding:10px;
-    height:40px;
-    overflow:hidden;
-    border-radius: 50%; 
-    color:#fff;
-    background:#000;
-    position:absolute;
-    opacity:0.5; */
-    /* cần css lại button !!!*/
-/* }
-.image-button:hover{
-    color:#000;
-    background:#ccc;
-} */
-
-/*---chấm tròn phía dưới---*/
-/* .badge {
-    text-align:center; 
-    margin-bottom:16px; 
-    font-size:20px;
-    position:absolute;
-    bottom:0;
-}
-.badge-white{
-    color:#000;
-    background-color:#fff;
-}
-.image-badge {
-    display:inline-block;
-    border-radius:50%;
-    height:14px;
-    width:14px; 
-    border:1px solid #ccc;
-}
-.image-badge:hover{
-    background:#fff;
-}
-
-
-
 /* nav */
 nav {
     margin-left: 10%;
