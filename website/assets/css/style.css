@@ -3701,24 +3701,6 @@ body.mmm-open .mmm {
     }
 }
 
-/*
-:root {
-    --media-width: 1400px;
-    --media-font-size: 17px;
-    --media-container-width: 1320px;
+.intro-item{
+    background-image: url(/img/bg-img.jpg);
 }
-$media-width: var(--media-width);
-$media-font-size: var(--media-font-size);
-$media-container-width: var(--media-container-width);
-
-@media only screen and (min-width : $media-width) {
-
-    html {
-        font-size: $media-font-size;
-    }
-
-    .container, .container-sm, .container-md, .container-lg, .container-xl {
-        max-width: $media-container-width;
-    }
-
-}*/
