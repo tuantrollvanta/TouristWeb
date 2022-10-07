@@ -1,13 +1,17 @@
-var api = 'http://localhost:8080/api/product/v1/getAll'
+headings = document.getElementById("heading")
+console.log(headings)
+    var api = 'http://localhost:8080/api/product/v1/getAll'
 fetch(api)
     .then((res) => {
+        console.log(123,res.json)
         return res.json()
-        console.log(res.json)
+        
     })
     .then(data  => {
+        console.log(data)
     var htmls = data.map((post) => {
-        console.log(post);
-        // for (let i = 0; i < post.length; i++) {
+        console.log(post,123);
+        if (post.address.includes(headings.value)){
              return `
              <div class="col-12">
              <div class="section-heading heading-center">
@@ -22,6 +26,9 @@ fetch(api)
              </div>
             </div>
         `
+        }
+        // for (let i = 0; i < post.length; i++) {
+            
         //   }
        
     })
